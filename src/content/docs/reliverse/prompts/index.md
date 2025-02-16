@@ -132,6 +132,219 @@ export const IDs = {
 };
 ```
 
+## Task Management
+
+> The library provides a powerful task management system that allows you to create, track, and manage asynchronous tasks with progress indicators, priorities, and nested subtasks:
+
+```ts
+import { task } from "@reliverse/prompts";
+
+// Simple success/error task with automatic verification
+const result = await task(
+  "Check answer", 
+  async ({ setError }) => {
+    const isCorrect = answer === "correct";
+    
+    if (!isCorrect) {
+      setError(new Error("Wrong answer!")); // Shows error in red
+      return false;
+    }
+    
+    return "Great job!"; // Shows as success message
+  },
+  "normal",
+  {
+    displayType: "spinner",    // "spinner" | "progress"
+    verificationSteps: 5,      // Number of verification steps to show
+    stepDelay: 400,           // Delay between steps in ms
+    initialDelay: 500,        // Initial delay before starting
+    exitProcessOnError: true,  // Exit process on error (default: true)
+  }
+);
+
+// Handle task result
+if (result.result === false) {
+  process.exit(1);
+}
+
+// Progress tracking task
+await task(
+  "Download files", 
+  async ({ setProgress, setStatus }) => {
+    setStatus("Downloading...");
+    for (let i = 0; i < 100; i++) {
+      setProgress({ 
+        current: i + 1, 
+        total: 100, 
+        message: `File ${i + 1}/100` 
+      });
+      await someWork();
+    }
+  },
+  "normal",
+  { displayType: "progress" }
+);
+
+// Group tasks with priorities
+await task.group(create => [
+  create("Critical task", async () => { /* ... */ }, "critical"),
+  create("Normal task", async () => { /* ... */ }, "normal"),
+  create("Low priority", async () => { /* ... */ }, "low")
+]);
+
+// Custom validation with error handling
+const result = await task(
+  "Validate data",
+  async ({ setError, setStatus }) => {
+    try {
+      // Custom validation logic
+      const validateData = (data: string) => {
+        // Your validation here
+        return data === "valid";
+      };
+
+      const isValid = validateData(data);
+      
+      if (!isValid) {
+        setError(new Error("Invalid data"));
+        return false;
+      }
+
+      return "Data validated successfully!";
+    } catch (err) {
+      setError(new Error(`Validation failed: ${err.message}`));
+      return false;
+    }
+  }
+);
+
+// With exitProcessOnError: false, you can handle errors manually
+const result = await task(
+  "Check data", 
+  async ({ setError }) => {
+    const isValid = validateData();
+    
+    if (!isValid) {
+      setError(new Error("Invalid data"));
+      return false;
+    }
+    return "Data is valid!";
+  },
+  "normal",
+  { exitProcessOnError: false }
+);
+
+// Handle error manually
+if (result.result === false) {
+  // Custom error handling...
+  await cleanup();
+  process.exit(1);
+}
+```
+
+**Perks**:
+
+- **Progress bars that actually move**: Progress tracking with current/total counts and status messages
+- **Task priorities (because some stuff is more important)**: Critical, high, normal, low
+- **Built-in stats, error handling, and cancellation**: Task timing and statistics, built-in error handling and cancellation support
+- **Customizable spinners to keep your eyes happy**: Customizable spinners and progress indicators
+- **Nested subtasks and task groups**: Group tasks and subtasks for better organization
+
+## Non-Interactive Mode 101
+
+**TL;DR**: The awesome thing for script wizards who can’t rely on a TTY, and especially for CI/CD. Library will generate a `prompts.json` when your user runs your CLI in non-interactive mode, fill it, and carry on.  
+
+### 1. Interactive Prompts with Non-Interactive Fallback
+
+```ts
+import { inputPrompt, NonInteractiveError } from "@reliverse/prompts";
+
+try {
+  const username = await inputPrompt({
+    title: "What's your name?",
+    nonInteractive: true,
+  });
+} catch (error) {
+  if (error instanceof NonInteractiveError) {
+    console.log("prompts.json generated. Fill it out and rerun the CLI!");
+  }
+}
+```
+
+### 2. Non-Interactive Commands
+
+```ts
+import { createMain, NonInteractiveError } from "@reliverse/prompts";
+
+const main = createMain({
+  meta: {
+    name: "mycli",
+    version: "1.0.0",
+    description: "My awesome CLI",
+  },
+  args: {
+    name: { type: "string", description: "Your name" },
+    age: { type: "number", description: "Your age" },
+  },
+  run({ args }) {
+    console.log(`Hey ${args.name}, you are ${args.age} years old!`);
+  },
+});
+
+try {
+  await main({ nonInteractive: true });
+} catch (error) {
+  if (error instanceof NonInteractiveError) {
+    console.log("prompts.json generated. Edit it and rerun!");
+  }
+}
+```
+
+### 3. Going Custom
+
+```ts
+import { createMain } from "@reliverse/prompts";
+import fs from "node:fs/promises";
+
+const main = createMain({ /* ... CLI config ... */ });
+
+await main({
+  nonInteractive: true,
+  nonInteractiveAction: {
+    promptsJson: {
+      type: "prompts",
+      message: "Custom message here",
+      command: { /* ...custom data... */ }
+    },
+    onNonInteractive: async (json) => {
+      await fs.writeFile("./config/prompts.json", JSON.stringify(json, null, 2));
+      console.log("Saved at ./config/prompts.json");
+    }
+  }
+});
+```
+
+### 4. Reading Existing Prompts
+
+```ts
+import fs from "node:fs/promises";
+
+const main = createMain({ /* ... */ });
+const existingPrompts = JSON.parse(await fs.readFile("./prompts.json", "utf-8"));
+
+await main({
+  nonInteractive: true,
+  nonInteractiveAction: {
+    promptsJson: existingPrompts,
+    onNonInteractive: async (json) => {
+      console.log(`Running with saved config`, json);
+    }
+  }
+});
+```
+
+**In short**: If `nonInteractiveAction` is set, we do your custom routine. If not, we spit out `prompts.json` and bail. Perfect!
+
 ## Prompts Library Comparison
 
 > **Note:** This table contains approximate and placeholder values. More detailed assessments will be provided as libraries continue to evolve.
