@@ -1,52 +1,49 @@
 {
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "quickfix.biome": "explicit",
-    "source.addMissingImports": "never",
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never",
-    "source.removeUnused": "never"
-  },
-  "eslint.ignoreUntitled": true,
-  "eslint.rules.customizations": [
-    {
-      "rule": "perfectionist/sort-imports",
-      "severity": "off"
-    }
-  ],
-  "markdownlint.config": {
-    "MD013": false,
-    "MD033": {
-      "allowed_elements": [
-        "a",
-        "br",
-        "Card",
-        "CardGrid",
-        "details",
-        "div",
-        "h1",
-        "img",
-        "p",
-        "picture",
-        "source",
-        "span",
-        "sub",
-        "summary",
-        "sup",
-        "table",
-        "tbody",
-        "td",
-        "tfoot",
-        "th",
-        "thead",
-        "tr",
-        "b"
-      ]
-    }
-  },
-  "files.associations": {
-    ".reliverse": "jsonc"
-  },
-  "typescript.enablePromptUseWorkspaceTsdk": true,
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.addMissingImports": "never",
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "never",
+		"source.removeUnused": "never"
+	},
+	"eslint.ignoreUntitled": true,
+	"eslint.rules.customizations": [
+		{
+			"rule": "perfectionist/sort-imports",
+			"severity": "off"
+		}
+	],
+	"markdownlint.config": {
+		"MD013": false,
+		"MD033": {
+			"allowed_elements": [
+				"a",
+				"br",
+				"Card",
+				"CardGrid",
+				"details",
+				"div",
+				"h1",
+				"img",
+				"p",
+				"picture",
+				"source",
+				"span",
+				"sub",
+				"summary",
+				"sup",
+				"table",
+				"tbody",
+				"td",
+				"tfoot",
+				"th",
+				"thead",
+				"tr",
+				"b"
+			]
+		}
+	}
 }

@@ -7,7 +7,7 @@ description: A detailed guide to configuring and using environment variables in 
 If you're not familiar with environment variables, you can [read more about them in the introduction section](/intro/env/). The current page is only describing where to find the required keys to fill out your `.env` file.
 :::
 
-If you're using the Relivator Next.js Template, you'll need to fill out the `.env` file to run and build your project. Relivator v1.3.0 requires the following environment variables:
+If you're using the Versator Next.js Template, you'll need to fill out the `.env` file to run and build your project. Versator v1.3.0 requires the following environment variables:
 
 ## General
 
