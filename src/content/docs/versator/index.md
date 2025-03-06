@@ -13,7 +13,7 @@ We are currently migrating the documentation from the existing Versator README.m
 
 [🌐 Demo](https://versator.com) | [👋 Introduction](./INTRODUCTION.md) | [🏗️ Installation](./INSTALLATION.md) | [🩷 Sponsors](./SPONSORS.md)
 
-[⚙️ Scripts](./SCRIPTS.md) | [🤔 FAQ](./FAQ.md) | [🔍 Details](./DETAILS.md) | [✅ Roadmap](./ROADMAP.md) | [📖 Changelog](./CHANGELOG.md)
+[⚙️ Scripts](./SCRIPTS.md) | [🤔 FAQ](./FAQ.md) | [🔍 Details](./DETAILS.md) | [📖 Changelog](./CHANGELOG.md)
 
 </div>
 

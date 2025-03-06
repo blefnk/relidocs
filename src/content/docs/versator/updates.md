@@ -64,7 +64,7 @@ You’ll have two installation options: the classic method using 'package.json' 
 
 The 'addons' folder is already packed with many exciting features, especially related to codemods, and includes the **@reliverse/academy game**. This game allows you to test your knowledge of JavaScript/TypeScript, React/Next.js, Versator/Reliverse (make food/tea/coffee before trying this test—it has a lot of questions!), and even ESLint v9 ecosystems. It features a leaderboard, enabling you to compete with others by sharing `data/players.json` and `data/progress.json` save files. Plus, an achievement system keeps you motivated!
 
-I can’t wait for you to experience the new and improved Versator 1.3.0! By the way, the items in the [✅ Roadmap](./ROADMAP.md) section will finally be checked off! But to make 1.3.0 truly stable, production-ready, and just great, let's first work together on Versator v1.3.0-canary.0, which is coming soon! If you want to get it even faster, there is now a 'dev' branch. We recently opened the project pages on financial support platforms, and currently, any contribution grants you access to the 'dev' branch. Thank you for your attention!
+I can’t wait for you to experience the new and improved Versator 1.3.0! But to make 1.3.0 truly stable, production-ready, and just great, let's first work together on Versator v1.3.0-canary.0, which is coming soon! If you want to get it even faster, there is now a 'dev' branch. We recently opened the project pages on financial support platforms, and currently, any contribution grants you access to the 'dev' branch. Thank you for your attention!
 
 ---
 
@@ -257,7 +257,7 @@ Many unique solutions have been implemented in this new version. Moreover, using
 
 If you have already used Versator before, please pay attention, this is very important! Be sure to check the updated .env.example file and update the .env file accordingly.
 
-As a small teaser/spoiler, for Versator 1.3.0, even more improvements in visual design and UX are planned; 1.4.0 will come with a magical CLI implementation, allowing you to quickly obtain only the necessary features and dependencies for the app (even automated updates and the ability to add other functions and packages to an already installed app); 1.5.0 will undergo a full code refactoring that will meet all the best standards and practices; 1.6.0-2.0.0+ versions, apart from many other things, will receive most of the items currently unchecked in the Roadmap (located in the project's README.md). It's going to be incredible!
+As a small teaser/spoiler, for Versator 1.3.0, even more improvements in visual design and UX are planned; 1.4.0 will come with a magical CLI implementation, allowing you to quickly obtain only the necessary features and dependencies for the app (even automated updates and the ability to add other functions and packages to an already installed app); 1.5.0 will undergo a full code refactoring that will meet all the best standards and practices. It's going to be incredible!
 
 So, install this new version of Versator 1.2.0 and appreciate the multitude of incredible features, and freely use it in the own projects today. Please use the preferred feedback channels to share the thoughts on Versator 1.2.0 and what you would like to see in future releases.
 

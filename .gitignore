@@ -1,5 +1,6 @@
-dist/
 .astro/
-node_modules/
-.env
 .DS_Store
+.env
+.eslintcache
+dist/
+node_modules/

@@ -49,7 +49,7 @@ git clone https://github.com/blefnk/versator.git
 
 [🌐 Demo](https://versator.com) | [👋 Introduction](./INTRODUCTION.md) | [🏗️ Installation](./INSTALLATION.md) | [🩷 Sponsors](./SPONSORS.md)
 
-[⚙️ Scripts](./SCRIPTS.md) | [🤔 FAQ](./FAQ.md) | [🔍 Details](./DETAILS.md) | [✅ Roadmap](./ROADMAP.md) | [📖 Changelog](./CHANGELOG.md)
+[⚙️ Scripts](./SCRIPTS.md) | [🤔 FAQ](./FAQ.md) | [🔍 Details](./DETAILS.md) | [📖 Changelog](./CHANGELOG.md)
 
 **Follow Us Everywhere:** [𝕏](https://x.com/blefnk) | [GitHub](https://github.com/blefnk) | [LinkedIn](https://linkedin.com/in/blefnk) | [Facebook](https://facebook.com/blefnk) | [Discord](https://discord.gg/Pb8uKbwpsJ) | [Fiverr](https://fiverr.com/blefnk)
 
