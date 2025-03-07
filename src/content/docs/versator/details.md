@@ -15,4 +15,4 @@ For real, if you've been exploring which Next.js starter to select for your next
 
 You can even think of Versator as a Next.js framework! So grab it and enjoy! And don't forget: feedback and stars mean the world to us. Hit that star button! Fork it! Your involvement propels the project to new heights! If you have coding skills, contributions are always welcome!
 
-If you run into issues, join our repository discussions, open an issue, or DM us on: [Discord](https://discord.gg/Pb8uKbwpsJ), [Twitter/X](https://x.com/blefnk), [Fiverr](https://fiverr.com/blefnk), [LinkedIn](https://linkedin.com/in/blefnk), or [Facebook](https://facebook.com/blefnk).
+If you run into issues, join my repository discussions, open an issue, or DM us on: [Discord](https://discord.gg/Pb8uKbwpsJ), [Twitter/X](https://x.com/blefnk), [Fiverr](https://fiverr.com/blefnk), [LinkedIn](https://linkedin.com/in/blefnk), or [Facebook](https://facebook.com/blefnk).

@@ -3,20 +3,20 @@ title: Code of Conduct
 description: This is the code of conduct of Versator.
 ---
 
-## Our Pledge
+## My Pledge
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participating in our project and community a harassment-free experience for everyone, regardless of individual differences.
+In the interest of fostering an open and welcoming environment, I as contributors and maintainers pledge to make participating in my project and community a harassment-free experience for everyone, regardless of individual differences.
 
-We commit to creating a friendly and respectful place for learning, teaching, and contributing. All participants in our community are expected to show respect and courtesy to others.
+I commit to creating a friendly and respectful place for learning, teaching, and contributing. All participants in my community are expected to show respect and courtesy to others.
 
-## Our Standards
+## My Standards
 
 **Positive Behaviors to Encourage:**
 
 - Demonstrating empathy and kindness
 - Being respectful of varying opinions and viewpoints
 - Giving and receiving constructive feedback
-- Owning up to our mistakes and learning from them
+- Owning up to my mistakes and learning from them
 - Prioritizing community well-being and success
 
 **Unacceptable Behaviors Include:**
@@ -30,7 +30,7 @@ We commit to creating a friendly and respectful place for learning, teaching, an
 
 ## Enforcement Responsibilities
 
-Our community leaders are tasked with clarifying these standards and enforcing them, taking fair and appropriate action to address any instances of unacceptable behavior.
+My community leaders are tasked with clarifying these standards and enforcing them, taking fair and appropriate action to address any instances of unacceptable behavior.
 
 Leaders have the authority to moderate comments, commits, code, and other contributions not in line with this Code of Conduct.
 

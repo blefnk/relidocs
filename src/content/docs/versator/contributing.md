@@ -9,7 +9,7 @@ Welcome, and thank you for considering contributing to this project! Your involv
 
 *This section will be enhanced soon with simpler steps to get everything ready.*
 
-Contributions are warmly welcomed! We express our gratitude to everyone who has contributed to this repository. the contributions will be recognized. If you have any questions or suggestions, please open an issue. For more information, see the [contributing guide](.github/CONTRIBUTING.md).
+Contributions are warmly welcomed! I express my gratitude to everyone who has contributed to this repository. the contributions will be recognized. If you have any questions or suggestions, please open an issue. For more information, see the [contributing guide](.github/CONTRIBUTING.md).
 
 Please visit [this special wiki page](https://github.com/blefnk/versator/wiki/Project-Credits-&-Contributors) to view the full list of credits and contributors. To contribute to Versator, follow these steps:
 
@@ -26,7 +26,7 @@ Alternatively, check the GitHub docs on [how to create a pull request](https://h
 ## Getting Started
 
 - **Fork and Setup**: Initiate your contribution journey by forking the repository. Follow the setup instructions in [README.md](../README.md) for guidance.
-- **Code of Conduct**: Be familiar with our [Code of Conduct](./CODE_OF_CONDUCT.md). Adherence to these principles is expected from all community members.
+- **Code of Conduct**: Be familiar with my [Code of Conduct](./CODE_OF_CONDUCT.md). Adherence to these principles is expected from all community members.
 
 ## Contribution Guidelines
 
@@ -59,7 +59,7 @@ Alternatively, check the GitHub docs on [how to create a pull request](https://h
 #### Preliminary Considerations
 
 - **Version Check**: Ensure you're working with the latest version of the software.
-- **Existing Suggestions**: Search [GitHub Issues](https://github.com/blefnk/versator/issues?q=) and our [Discord Suggestions Channel](https://discord.com/channels/1075533942096150598/1196425440777224212) to see if the suggestion has already been made.
+- **Existing Suggestions**: Search [GitHub Issues](https://github.com/blefnk/versator/issues?q=) and my [Discord Suggestions Channel](https://discord.com/channels/1075533942096150598/1196425440777224212) to see if the suggestion has already been made.
 - **Project Alignment**: Assess whether the suggestion is in line with the project's objectives.
 
 #### How to Suggest Enhancements

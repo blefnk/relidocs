@@ -3,9 +3,9 @@ title: Partnerships
 description: This is the list of partners of Versator.
 ---
 
-Starting with version 1.2.6, Versator is now truly production-ready. However, there's still much to be accomplished. To reach our goals, we are seeking partners to collaborate and support each other's projects' growth. If you're interested and would like to learn more, please feel free to email me at <blefnk@gmail.com>.
+Starting with version 1.2.6, Versator is now truly production-ready. However, there's still much to be accomplished. To reach my goals, I'm seeking partners to collaborate and support each other's projects' growth. If you're interested and would like to learn more, please feel free to email me at <blefnk@gmail.com>.
 
-## Our Partners
+## My Partners
 
 <a href="https://railway.app?referralCode=sATgpf">
   <picture>

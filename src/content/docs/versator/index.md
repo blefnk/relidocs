@@ -5,7 +5,7 @@ description: This is the introduction of Versator.
 
 **⭐ Bookmark this page in your browser**: This project will only get better in the future. You can also click the star at the top of the page and add the repo to your collection to keep it easily accessible.
 
-We are currently migrating the documentation from the existing Versator README.md to the official, newly launched [Versator & Reliverse Docs website (https://reliverse.org)](https://reliverse.org). The content will be organized into appropriate sections on the new site. During the migration, some elements might not function properly. The current README.md will contain only minimal information. Please let us know if you encounter any issues.
+I'm currently migrating the documentation from the existing Versator README.md to the official, newly launched [Versator & Reliverse Docs website (https://reliverse.org)](https://reliverse.org). The content will be organized into appropriate sections on the new site. During the migration, some elements might not function properly. The current README.md will contain only minimal information. Please let us know if you encounter any issues.
 
 ---
 
@@ -60,7 +60,7 @@ Please take a moment to read through the information below. You'll find helpful 
 
 > *«I couldn't find the ~~sports car~~ Next.js starter of my dreams, so I built it myself.»* © ~~Ferdinand Porsche~~ [@blefnk](https://github.com/blefnk)
 
-Our goal is to create the world's most feature-rich and globally accessible Next.js starter. It offers more than just code—it's an experience. Scroll down to see the impressive list of project features, including the ability to switch between Clerk/Auth.js (next-auth@beta/NextAuth.js) and Drizzle's MySQL/PostgreSQL on the fly. Welcome to the Versator starter and the Reliverse community!
+My goal is to create the world's most feature-rich and globally accessible Next.js starter. It offers more than just code—it's an experience. Scroll down to see the impressive list of project features, including the ability to switch between Clerk/Auth.js (next-auth@beta/NextAuth.js) and Drizzle's MySQL/PostgreSQL on the fly. Welcome to the Versator starter and the Reliverse community!
 
 <!-- <p align="center">
     <span>

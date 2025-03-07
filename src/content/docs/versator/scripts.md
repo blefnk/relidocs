@@ -46,7 +46,7 @@ Below are some scripts configured in the `scripts` section of the `package.json`
 
 That's why I've developed numerous tools in Versator. Over the past few months leading up to Versator 1.2.6, I've learned a lot. To avoid manually rewriting code, I've developed a unified script manager. The current version of the manager is still very unstable. You can visit the `addons/scripts/reliverse/relimter/python/index.py` file to learn more about how this script manager works.
 
-If you want to use this `Python Script Manager` (refer to [⚙️ Script](/versator/SCRIPTS/) to read the introduction), then please ensure your workspace is properly prepared for it. Please note that most scripts are largely untested. Commit your code before running any script. Increase your VSCode terminal window size to avoid UI glitches. Need help? Visit our [Discord](https://discord.gg/Pb8uKbwpsJ). Follow the steps below to get started (scroll down to learn even more Python commands):
+If you want to use this `Python Script Manager` (refer to [⚙️ Script](/versator/SCRIPTS/) to read the introduction), then please ensure your workspace is properly prepared for it. Please note that most scripts are largely untested. Commit your code before running any script. Increase your VSCode terminal window size to avoid UI glitches. Need help? Visit my [Discord](https://discord.gg/Pb8uKbwpsJ). Follow the steps below to get started (scroll down to learn even more Python commands):
 
 ✅ After following the instructions above, you can safely run the script manager.
 
@@ -59,7 +59,7 @@ If you want to use this `Python Script Manager` (refer to [⚙️ Script](/versa
 
 ## Useful Python Commands
 
-*We are still working on this section. The following description may currently be slightly incorrect.*
+*I'm still working on this section. The following description may currently be slightly incorrect.*
 
 ```bash
 # - Install the required dependencies:

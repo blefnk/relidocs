@@ -19,7 +19,7 @@ It's true—[Git](https://git-scm.com) can be complex at first. Consider using r
 
 ### Essential Tools
 
-Ensure you have [*Git*](https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git) installed. It's also recommended to install: *Node.js LTS* ([Windows/macOS](https://nodejs.org) | [Linux](https://youtu.be/NS3aTgKztis)). Then, run *corepack enable pnpm* to install [*pnpm*](https://pnpm.io/installation). Additionally, we recommend installing [*VSCode*](https://code.visualstudio.com) and *GitHub Desktop* ([Windows/macOS](https://desktop.github.com) | [Linux](https://dev.to/rahedmir/is-github-desktop-available-for-gnu-linux-4a69)). If you're a Windows user, also install [PowerShell 7.4+](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#installing-the-msi-package).
+Ensure you have [*Git*](https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git) installed. It's also recommended to install: *Node.js LTS* ([Windows/macOS](https://nodejs.org) | [Linux](https://youtu.be/NS3aTgKztis)). Then, run *corepack enable pnpm* to install [*pnpm*](https://pnpm.io/installation). Additionally, I recommend installing [*VSCode*](https://code.visualstudio.com) and *GitHub Desktop* ([Windows/macOS](https://desktop.github.com) | [Linux](https://dev.to/rahedmir/is-github-desktop-available-for-gnu-linux-4a69)). If you're a Windows user, also install [PowerShell 7.4+](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#installing-the-msi-package).
 
 ### Setting Up Your Identity
 

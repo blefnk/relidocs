@@ -5,7 +5,7 @@ description: This is the configuration of Versator.
 
 **First thing first, refer to the [`.env.example`](.env.example) file as the guide. Simply copy data from it to a new `.env` file.**
 
-*The instructions below may be outdated, so please double-check them! We will fully update this README.md with the Versator 1.3.0 release.*
+*The instructions below may be outdated, so please double-check them! I will fully update this README.md with the Versator 1.3.0 release.*
 
 🎉 Everything is optional in `.env` file starting from Versator 1.2.6! You can deploy Versator without a .env file! But ensure you verify what's necessary. Though the application will run without certain variables, missing ones may deactivate specific features.
 
@@ -15,4 +15,4 @@ Further [information about environment variables is available here](https://next
 
 *A cleaner and improved version of this section is coming soon. Stay tuned!*
 
-In the 1.1.0 Versator release, the `.env.example` file was greatly simplified and will be streamlined even further in upcoming versions. We aim to ensure that unspecified values will simply deactivate related functionality without halting app compilation.
+In the 1.1.0 Versator release, the `.env.example` file was greatly simplified and will be streamlined even further in upcoming versions. I aim to ensure that unspecified values will simply deactivate related functionality without halting app compilation.

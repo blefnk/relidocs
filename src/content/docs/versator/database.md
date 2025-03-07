@@ -17,7 +17,7 @@ For development databases without important data, you can use `bun db:push`. For
 
 **Note**: NEXT_PUBLIC_DB_PROVIDER was removed in Versator v1.2.6. To switch the provider from Neon, modify `drizzle.config.ts`. To use MySQL or LibSQL providers, update the files inside `src/db`. An automatic switcher is coming in Versator version 1.3.x.
 
-*The instructions below may be outdated, so please double-check them! We will fully update this README.md with the Versator 1.3.0 release.*
+*The instructions below may be outdated, so please double-check them! I will fully update this README.md with the Versator 1.3.0 release.*
 
 Versator is designed to effortlessly support both MySQL and PostgreSQL databases. While PostgreSQL and [Neon](https://neon.tech) are the default configurations, switching to MySQL provided by [Railway](https://railway.app?referralCode=sATgpf) or [PlanetScale](https://planetscale.com), or to PostgreSQL provided by [Railway](https://railway.app?referralCode=sATgpf) or [Vercel](https://vercel.com/storage/postgres) is straightforward. Adjust the database configuration inside [drizzle.config.ts](./drizzle.config.ts) and the `src/db/*` files accordingly. Although Versator is optimized for these providers, other providers compatible with Drizzle and Auth.js (next-auth@beta/NextAuth.js) might also work with some additional setup. Full SQLite support is coming soon.
 
@@ -27,6 +27,6 @@ For database migrations, use the `bun db:generate` command, review the `drizzle`
 
 If you used Versator before v1.2.6, you may remove the `drizzle` folder inside the root directory. **Possible outdated information:** Do not manually delete files from the `drizzle` directory. Instead, use the [`bun db:drop` command](https://orm.drizzle.team/kit-docs/commands#drop-migration) if a migration needs to be reversed.
 
-We ensure consistent database configuration by using the setup inside `drizzle.config.ts` and exporting configurations in `src/db/index.ts` and `src/db/schema/index.ts`. When selecting a database provider, comment out or remove unneeded providers in the `switch-case` of these files and remove related schema files as necessary. Additional adjustments in other files may also be required. An automatic switcher is coming soon in the Versator v1.3.0 release.
+I ensure consistent database configuration by using the setup inside `drizzle.config.ts` and exporting configurations in `src/db/index.ts` and `src/db/schema/index.ts`. When selecting a database provider, comment out or remove unneeded providers in the `switch-case` of these files and remove related schema files as necessary. Additional adjustments in other files may also be required. An automatic switcher is coming soon in the Versator v1.3.0 release.
 
-**Historical context**: In Versator v1.1.0, we aimed to provide simultaneous support for both MySQL and PostgreSQL for Drizzle ORM. In future releases, we plan to integrate Prisma ORM, making the project even more inclusive.
+**Historical context**: In Versator v1.1.0, I aimed to provide simultaneous support for both MySQL and PostgreSQL for Drizzle ORM. In future releases, I plan to integrate Prisma ORM, making the project even more inclusive.

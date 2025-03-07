@@ -5,7 +5,7 @@ description: This is the list of payment providers of Versator.
 
 ## Stripe
 
-*The instructions below may be outdated, so please double-check them! We will fully update this README.md with the Versator 1.3.0 release.*
+*The instructions below may be outdated, so please double-check them! I will fully update this README.md with the Versator 1.3.0 release.*
 
 Refer to the [`.env.example`](.env.example) file as the guide for where and how to get all the important environment variable keys for Stripe, including webhooks for both localhost and deployment.
 

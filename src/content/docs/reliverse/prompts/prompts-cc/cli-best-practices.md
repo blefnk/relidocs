@@ -492,7 +492,7 @@ package.json
 }
 ```
 
-In this example we had to use double quotes and escape them with the JSON notation.
+In this example I had to use double quotes and escape them with the JSON notation.
 
 #### Avoid concatenating paths
 
@@ -844,8 +844,8 @@ You will end up with a package that contains files that may not be needed to run
 
 ℹ️ **Details**
 
-To keep the published [package size small](#21-prefer-a-small-dependency-footprint), we should only include files
-that are required to run our CLI application. See this [post](https://medium.com/@nodejs/publishing-npm-packages-c4c615a0fc6b) for more details.
+To keep the published [package size small](#21-prefer-a-small-dependency-footprint), I should only include files
+that are required to run my CLI application. See this [post](https://medium.com/@nodejs/publishing-npm-packages-c4c615a0fc6b) for more details.
 
 The following `files` field tells the npm CLI to include all the files inside the src directory except the spec files.
 

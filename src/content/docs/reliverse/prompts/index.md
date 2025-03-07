@@ -65,7 +65,7 @@ All prompts support custom validation logic, providing immediate feedback to use
 
 ## Contributing
 
-@reliverse/prompts is a work in progress. We welcome feedback and contributions to help make it the best library it can be. Thank you!
+@reliverse/prompts is a work in progress. I welcome feedback and contributions to help make it the best library it can be. Thank you!
 
 Here is how to install the library for development:
 
@@ -104,7 +104,7 @@ const extendedConfig = {
 
 const username = await inputPrompt({
   id: "username",
-  title: "We're glad you're testing our library!",
+  title: "We're glad you're testing my library!",
   content: "Let's get to know each other!\nWhat's your username?",
   schema: schema.properties.username,
   ...extendedConfig,
@@ -343,7 +343,7 @@ await main({
 });
 ```
 
-**In short**: If `nonInteractiveAction` is set, we do your custom routine. If not, we spit out `prompts.json` and bail. Perfect!
+**In short**: If `nonInteractiveAction` is set, I do your custom routine. If not, I spit out `prompts.json` and bail. Perfect!
 
 ## Prompts Library Comparison
 

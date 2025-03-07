@@ -64,7 +64,7 @@ You’ll have two installation options: the classic method using 'package.json' 
 
 The 'addons' folder is already packed with many exciting features, especially related to codemods, and includes the **@reliverse/academy game**. This game allows you to test your knowledge of JavaScript/TypeScript, React/Next.js, Versator/Reliverse (make food/tea/coffee before trying this test—it has a lot of questions!), and even ESLint v9 ecosystems. It features a leaderboard, enabling you to compete with others by sharing `data/players.json` and `data/progress.json` save files. Plus, an achievement system keeps you motivated!
 
-I can’t wait for you to experience the new and improved Versator 1.3.0! But to make 1.3.0 truly stable, production-ready, and just great, let's first work together on Versator v1.3.0-canary.0, which is coming soon! If you want to get it even faster, there is now a 'dev' branch. We recently opened the project pages on financial support platforms, and currently, any contribution grants you access to the 'dev' branch. Thank you for your attention!
+I can’t wait for you to experience the new and improved Versator 1.3.0! But to make 1.3.0 truly stable, production-ready, and just great, let's first work together on Versator v1.3.0-canary.0, which is coming soon! If you want to get it even faster, there is now a 'dev' branch. I recently opened the project pages on financial support platforms, and currently, any contribution grants you access to the 'dev' branch. Thank you for your attention!
 
 ---
 
@@ -72,21 +72,21 @@ I can’t wait for you to experience the new and improved Versator 1.3.0! But to
 
 The long-awaited Versator 1.2.6 update was released on August 4, 2024 – bringing significant improvements and a glimpse into the future of Versator.
 
-> We are currently in the process of migrating the documentation from Versator's README.md to this site (Versator & Reliverse Docs). We plan to divide everything into appropriate sections. During the migration, some things might not work properly. Please let us know if you encounter any issues.
+> I'm currently in the process of migrating the documentation from Versator's README.md to this site (Versator & Reliverse Docs). I plan to divide everything into appropriate sections. During the migration, some things might not work properly. Please let us know if you encounter any issues.
 
 ![Versator v1.2.6 OG Image](/og.png)
 
 **The Huge Versator 1.2.6 is Already Available!**
 
-Versator 1.2.6 was released on August 4, 2024! We are now actively working on the next major update, Versator 1.3.0, with the goal of making the project production-ready, clean, and high-quality. We invite you to join us in actively searching for issues, contributing freely, and earning cool rewards. A canary branch was launched a few days ago (and is available to everyone in the main repo), and the dev branch is also now available (the dev branch is available for a limited time to all sponsors at any paid pledge level).
+Versator 1.2.6 was released on August 4, 2024! I'm now actively working on the next major update, Versator 1.3.0, with the goal of making the project production-ready, clean, and high-quality. I invite you to join us in actively searching for issues, contributing freely, and earning cool rewards. A canary branch was launched a few days ago (and is available to everyone in the main repo), and the dev branch is also now available (the dev branch is available for a limited time to all sponsors at any paid pledge level).
 
-**🔥 Important Note:** Versator currently requires specifying Clerk environment variable keys, as its API has changed. We are working on making Clerk optional again. However, all other environment variables are optional. If this statement is incorrect and something is broken, please let us know.
+**🔥 Important Note:** Versator currently requires specifying Clerk environment variable keys, as its API has changed. I'm working on making Clerk optional again. However, all other environment variables are optional. If this statement is incorrect and something is broken, please let us know.
 
 ## Versator 1.2.6 (August 4, 2024): The Resurrection Update
 
 **Versator is Back With Version 1.2.6 🥳!**
 
-We are thrilled to announce the release of Versator 1.2.6! This update marks a significant shift away from the "all-in-one" approach, paving the way for a modular future starting with Reliverse CLI in version 1.3.0. This release includes major updates, particularly enhancing the developer experience (DX). The README.md has been thoroughly revamped. Moving forward, we will introduce new version management branches: Dev (early-access for sponsors), Canary, Release Candidate (RC), and General Availability (GA). Version 1.2.6 serves as a solid foundation, enabling a smoother transition to the 1.3.0 branches.
+I'm thrilled to announce the release of Versator 1.2.6! This update marks a significant shift away from the "all-in-one" approach, paving the way for a modular future starting with Reliverse CLI in version 1.3.0. This release includes major updates, particularly enhancing the developer experience (DX). The README.md has been thoroughly revamped. Moving forward, I will introduce new version management branches: Dev (early-access for sponsors), Canary, Release Candidate (RC), and General Availability (GA). Version 1.2.6 serves as a solid foundation, enabling a smoother transition to the 1.3.0 branches.
 
 ### Major Changes and Improvements
 
@@ -95,7 +95,7 @@ We are thrilled to announce the release of Versator 1.2.6! This update marks a s
 
 ### Migration Guidance
 
-Starting with version 1.3.1, we will offer comprehensive migration guides. The usual process involves reviewing commit changes and integrating updates into your custom code. However, due to the extensive modifications in versions 1.2.6 and 1.3.0, this method is impractical. We recommend reinstalling the project and migrating your custom features from the previous version to the new starter version. We appreciate your understanding!
+Starting with version 1.3.1, I will offer comprehensive migration guides. The usual process involves reviewing commit changes and integrating updates into your custom code. However, due to the extensive modifications in versions 1.2.6 and 1.3.0, this method is impractical. I recommend reinstalling the project and migrating your custom features from the previous version to the new starter version. I appreciate your understanding!
 
 For a smoother migration, use an "`addons/cluster`" folder and move all your custom code there. If necessary, use the [Find and Replace](https://code.visualstudio.com/docs/editor/codebasics#_search-and-replace) feature in VSCode to adjust paths. This will simplify the process of transferring your custom code to Versator 1.2.6.
 
@@ -118,7 +118,7 @@ For more details, check out my posts in the Versator thread on Discord, starting
 
 ### Thank You for Your Support
 
-If you have any questions or issues, feel free to contact me, @blefnk, on Discord or GitHub. For more information about versions 1.2.6 and 1.3.0, visit the `#⭐-versator` chat on our Discord server or check out the [GitHub Issues](https://github.com/blefnk/versator/issues) page.
+If you have any questions or issues, feel free to contact me, @blefnk, on Discord or GitHub. For more information about versions 1.2.6 and 1.3.0, visit the `#⭐-versator` chat on my Discord server or check out the [GitHub Issues](https://github.com/blefnk/versator/issues) page.
 
 Thank you for your continued support, and happy coding with the [Reliverse Website Builder v0.4.0](https://github.com/blefnk/reliverse-website-builder) and [Versator Next.js Template v1.2.6](https://github.com/blefnk/versator)!
 
@@ -140,7 +140,7 @@ Below you can see a small copy of [the article from Reliverse Docs](https://reli
 
 **Versator is Back with Version 1.2.6!** 🥳
 
-We are excited to announce the release of Versator 1.2.6! This version marks the end of the "all-in-one" approach as we prepare for a more modular future with Reliverse CLI starting from version 1.3.0. The 1.2.6 release includes significant updates, especially in the database logic. The README.md has been significantly updated. Moving forward, we will introduce Canary, Release Candidate (RC), and General Availability (GA) branches for better version management. 1.2.6 will serve as a foundation, helping us transition more smoothly to the release of those 1.3.0's branches.
+I'm excited to announce the release of Versator 1.2.6! This version marks the end of the "all-in-one" approach as I prepare for a more modular future with Reliverse CLI starting from version 1.3.0. The 1.2.6 release includes significant updates, especially in the database logic. The README.md has been significantly updated. Moving forward, I will introduce Canary, Release Candidate (RC), and General Availability (GA) branches for better version management. 1.2.6 will serve as a foundation, helping us transition more smoothly to the release of those 1.3.0's branches.
 
 ## Major Changes and Improvements (2)
 
@@ -150,7 +150,7 @@ We are excited to announce the release of Versator 1.2.6! This version marks the
 
 ## Migration Guidance (2)
 
-Starting from version 1.3.1, we will provide comprehensive guides for migrating from older versions. The usual migration process involves reviewing commit changes and integrating necessary updates into your custom code. However, due to the extensive changes in versions 1.2.6 and 1.3.0, this method is not feasible. We recommend reinstalling the project and transferring your custom features from the previous version to the new version of starter. Thank you for your understanding!
+Starting from version 1.3.1, I will provide comprehensive guides for migrating from older versions. The usual migration process involves reviewing commit changes and integrating necessary updates into your custom code. However, due to the extensive changes in versions 1.2.6 and 1.3.0, this method is not feasible. I recommend reinstalling the project and transferring your custom features from the previous version to the new version of starter. Thank you for your understanding!
 
 To make the migration as smooth as possible, it's recommended to create a "`cluster`" folder in "`src`" and moving all your custom code there. If needed, you can adjust the paths using the [Find and Replace](https://code.visualstudio.com/docs/editor/codebasics#_search-and-replace) feature in VSCode. This will make it much easier to save and transfer your custom code to Versator 1.2.6.
 
@@ -190,7 +190,7 @@ Since there hasn't been an update in over a month, I'm going to make the transit
 
 If everything goes well, the next update will already be version 1.3.0. By the way, I'm working on 1.2.x and 1.3.0 in parallel, like in big studios, haha. But please note: some files and lines of code was disabled by default for this version to fix and check some things. By the way, the third digit means that this update is not mandatory, but still recommended. And Versator 1.3.0 may or may not come with a canary version of React/Next.js to start preparing for the upcoming release of React 19.
 
-Well, that's all for today, all the best to everyone, and may your `bun latest` and `bun appts` always be successful! As usual, I try to write a short announcement, but it turns out a few paragraphs, that's how we live! 😄
+Well, that's all for today, all the best to everyone, and may your `bun latest` and `bun appts` always be successful! As usual, I try to write a short announcement, but it turns out a few paragraphs, that's how I live! 😄
 
 P.S. And, please, don't pay attention that so many files have been "changed" in the latest commit, looks like it's because of Prettier I think, I only updated a few files, and if it's important to someone, please let me know in Discord's DM and I'll list you these files.
 
@@ -223,7 +223,7 @@ Just a small hotfix to improve the developer experience.
 
 Remember, Versator is designed to be beginner-friendly, so quite a lot of ESLint options are turned off, just turn on what you need.
 
-These turn-offs will be gradually eliminated as we move towards the massive 2.0.0, which will significantly raise the project's standards, being professional, will be even more convenient for beginners.
+These turn-offs will be gradually eliminated as I move towards the massive 2.0.0, which will significantly raise the project's standards, being professional, will be even more convenient for beginners.
 
 [Read more about v1.2.2](https://github.com/blefnk/versator/releases/edit/1.2.2)
 
@@ -251,9 +251,9 @@ In this version, significant attention was focused on stability, security, perfo
 
 By the way, you can now enjoy a finely-tuned ESLint Flat Config! Also, it's worth noting that Clerk, since version 1.1.0, is no longer considered deprecated in the Versator project. Thanks to 1.2.0, Clerk now works seamlessly with an easy switch to Auth.js (next-auth@beta/NextAuth.js) when needed, all on the fly. Plus, full support for Turbopack (next dev --turbo) is finally here, even for next-intl!
 
-As for next-intl, finally, we can now enjoy internationalization that works not only on the client-side but also on the server! Only the 404 page has client-side i18n messages, all other pages and components use i18n as server-first. And this is really cool!
+As for next-intl, finally, I can now enjoy internationalization that works not only on the client-side but also on the server! Only the 404 page has client-side i18n messages, all other pages and components use i18n as server-first. And this is really cool!
 
-Many unique solutions have been implemented in this new version. Moreover, using Versator from this version, you have the opportunity to try out the alpha version of our unique Code-First/No-Code Builder system for React pages and components (which will appear in Reliverse CMS in the future). Just visit the Admin page while in the development environment and enjoy.
+Many unique solutions have been implemented in this new version. Moreover, using Versator from this version, you have the opportunity to try out the alpha version of my unique Code-First/No-Code Builder system for React pages and components (which will appear in Reliverse CMS in the future). Just visit the Admin page while in the development environment and enjoy.
 
 If you have already used Versator before, please pay attention, this is very important! Be sure to check the updated .env.example file and update the .env file accordingly.
 

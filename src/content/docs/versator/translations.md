@@ -1,26 +1,26 @@
 ---
-title: Contributing Guidelines for Our Documentation
-description: Contributing Guidelines for Our Documentation
+title: Contributing Guidelines for My Documentation
+description: Contributing Guidelines for My Documentation
 ---
 
 [📖 Docs](https://reliverse.org)
 
 Are you fluent in a language other than English? Your expertise is invaluable to us!
 
-We utilize [README.md](../README.md) for the current repo and the [Starlight](https://starlight.astro.build) for our shared documentation website. This fantastic tool enables multilingual support within the same repository. This means you can contribute to the documentation in the preferred language without the hassle of managing a separate repository. For detailed guidance, please explore the [Starlight i18n documentation](https://starlight.astro.build/guides/i18n/).
+I utilize [README.md](../README.md) for the current repo and the [Starlight](https://starlight.astro.build) for my shared documentation website. This fantastic tool enables multilingual support within the same repository. This means you can contribute to the documentation in the preferred language without the hassle of managing a separate repository. For detailed guidance, please explore the [Starlight i18n documentation](https://starlight.astro.build/guides/i18n/).
 
 ## How to Contribute
 
-It's important to start by reading our [contribution guidelines](./CONTRIBUTING.md), which provide essential information about contributing to this project.
+It's important to start by reading my [contribution guidelines](./CONTRIBUTING.md), which provide essential information about contributing to this project.
 
 ### Starting a New Translation
 
-If our documentation isn't yet available in the language and you're interested in translating it, here's how you can start:
+If my documentation isn't yet available in the language and you're interested in translating it, here's how you can start:
 
 1. **Identify or Create a Translation Issue:**
 
    - Search for an existing issue for the language you wish to translate. If there isn't one, feel free to create it. This helps prevent duplicate efforts and enables the community to monitor translation progress.
-   - If you find an existing issue, please comment to inform others that you are starting the translation. We advise submitting individual pull requests (PRs) for each document to simplify the review process.
+   - If you find an existing issue, please comment to inform others that you are starting the translation. I advise submitting individual pull requests (PRs) for each document to simplify the review process.
 
 2. **Configure Internationalization (i18n):**
 
@@ -40,10 +40,10 @@ If our documentation isn't yet available in the language and you're interested i
 
 ### Review Process
 
-Our goal is to have each PR reviewed by 1-2 people. This ensures high-quality documentation with a consistent tone.
+My goal is to have each PR reviewed by 1-2 people. This ensures high-quality documentation with a consistent tone.
 
 If you know someone proficient in the translation language, encouraging them to review the PR can expedite the process. Their expertise will not only enhance the quality of the translation but also speed up the integration of the valuable contribution.
 
 ## Acknowledgements
 
-This document draws inspiration from the translation guidelines of [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app/blob/main/www/TRANSLATIONS.md) and [biomejs/biome](https://github.com/biomejs/biome/blob/main/website/TRANSLATIONS.md). We thank these communities for their pioneering efforts in collaborative translation.
+This document draws inspiration from the translation guidelines of [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app/blob/main/www/TRANSLATIONS.md) and [biomejs/biome](https://github.com/biomejs/biome/blob/main/website/TRANSLATIONS.md). I thank these communities for their pioneering efforts in collaborative translation.

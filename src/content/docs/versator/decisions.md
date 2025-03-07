@@ -7,13 +7,13 @@ description: This is the principles, design decisions, code insights, and recomm
 
 *We're continuously improving this section. Contributions are welcomed!*
 
-Our starter aims to be a rich resource for developers at all stages of their journey. Within the comment blocks and dedicated sections at the end of select files, you'll find valuable insights and clarifications on a wide array of topics. Contributions to enhancing these educational nuggets are highly encouraged!
+My starter aims to be a rich resource for developers at all stages of their journey. Within the comment blocks and dedicated sections at the end of select files, you'll find valuable insights and clarifications on a wide array of topics. Contributions to enhancing these educational nuggets are highly encouraged!
 
 **Principles (W.I.P):**
 
 - [ ] Prettier's principle over linters related to developer experience ([source](https://prettier.io/docs/en/integrating-with-linters.html#notes)): "You end up with a lot of red squiggly lines in the editor, which gets annoying. Prettier is supposed to make you forget about formatting – and not be in the face about it!"
 - [ ] Every file and component should be built consciously, using [KISS/DRY/SOLID/YAGNI principles](https://blog.openreplay.com/applying-design-principles-in-react) with a certain sense of intelligence, and with performance in mind.
-- [ ] We need to think of the project as if it were a planet with its own continents, countries, cities, rooms, individuals, entities, etc.
+- [ ] I need to think of the project as if it were a planet with its own continents, countries, cities, rooms, individuals, entities, etc.
 
 **Advanced Environment Variables:**
 
@@ -25,13 +25,13 @@ This folder contains optional plugins for Versator. Developed by @blefnk and oth
 
 **Function Over Const for Components:**
 
-We advocate the use of the `function` keyword instead of `const` when defining React components. Using `function` often improves stack traces, making debugging easier. Additionally, it makes code semantics more explicit, thereby making it easier for other developers to understand the intentions.
+I advocate the use of the `function` keyword instead of `const` when defining React components. Using `function` often improves stack traces, making debugging easier. Additionally, it makes code semantics more explicit, thereby making it easier for other developers to understand the intentions.
 
 **Personal Recommendations:**
 
-We advise regularly clearing the browser cache and deleting the `.next` folder to ensure optimal performance and functionality.
+I advise regularly clearing the browser cache and deleting the `.next` folder to ensure optimal performance and functionality.
 
-Currently, we don’t utilize Contentlayer due to its instability with Windows. Therefore, we're exploring options for its usage in the `.env` configuration file. Future plans might involve developing our own solution for content writing. Integration with external providers, such as Sanity, may also be a future feature, with corresponding enable/disable options.
+Currently, I don’t utilize Contentlayer due to its instability with Windows. Therefore, we're exploring options for its usage in the `.env` configuration file. Future plans might involve developing my own solution for content writing. Integration with external providers, such as Sanity, may also be a future feature, with corresponding enable/disable options.
 
 NOTE from the [Contentlayer Issues Page](https://github.com/contentlayerdev/contentlayer/issues/313#issuecomment-1305424923): Contentlayer doesn't work well with `next.config.mjs`, so you need to have `next.config.js`. Other libraries may also require this. If you're sure you need `.mjs` and don't plan to use Contentlayer, rename it.
 
@@ -94,7 +94,7 @@ W.I.P. — Use `bun css` to watch for [CSS tokens](https://blog.devgenius.io/lin
 
 **Package Manager Compatibility:**
 
-`Versator` can already harness some fantastic **[`bun`](<https://bun> .sh)** features. For this starter, we currently recommend using `pnpm`. Full bun support and compatibility will be shipped as soon as [Reliverse](https://github.com/blefnk/reliverse)'s [Versator](https://github.com/blefnk/versator) achieves full similarity with Versator. *Section expansion coming soon.*
+`Versator` can already harness some fantastic **[`bun`](<https://bun> .sh)** features. For this starter, I currently recommend using `pnpm`. Full bun support and compatibility will be shipped as soon as [Reliverse](https://github.com/blefnk/reliverse)'s [Versator](https://github.com/blefnk/versator) achieves full similarity with Versator. *Section expansion coming soon.*
 
 **Recommended Things to Learn:**
 

@@ -3,7 +3,7 @@ title: Sponsors
 description: This is the list of sponsors of Versator.
 ---
 
-**[We're Growing Fast! A Huge Thanks to All Our Supporters!](https://github.com/blefnk/versator/stargazers)**
+**[We're Growing Fast! A Huge Thanks to All My Supporters!](https://github.com/blefnk/versator/stargazers)**
 
 Developing something as ambitious as Versator takes a lot of time, especially since the project is primarily developed by just one person. The development could be significantly accelerated by hiring additional developers. Therefore, @blefnk (Nazar Kornienko), the author of this project, would be immensely grateful to anyone who can donate to the project in any amount. A big thank you to everyone in advance!
 
@@ -11,7 +11,7 @@ Developing something as ambitious as Versator takes a lot of time, especially si
 
 *Versator is currently sponsored by the following awesome people/organizations:*
 
-## 💚 [GitHub Sponsors](https://github.com/sponsors/blefnk) 🩵 [PayPal](https://paypal.me/blefony) 🧡 [Patreon](https://patreon.com/blefnk) 💛 [Buy Me a Coffee](https://buymeacoffee.com/blefnk) 🩷 [Ko-fi](https://ko-fi.com/blefnk)
+## 💚 [GitHub Sponsors](https://github.com/sponsors/blefnk) 🩵 [PayPal](https://paypal.me/blefony) 🧡 [Patreon](https://patreon.com/blefnk)
 
 *Love using this project? If you find this project useful, I'd appreciate a cup of coffee. You'll get Reliverse Pro, access to some private repositories, pre-release downloads, and the ability to influence my project planning. Please click on the donation platforms above to learn more. Thank you, everyone, for any kind of support!*
 
