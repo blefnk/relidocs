@@ -3,54 +3,52 @@ title: "Relivator Next.js Template"
 description: "Relivator template is the foundation of your eCommerce platform: Build More Efficient, Engaging, and Profitable Online Stores"
 ---
 
-This template serves as the foundation for your eCommerce platform, helping you build efficient, engaging, and profitable online stores.
+A robust and efficient foundation for eCommerce projects, optimized for fast development and maximum profitability.
 
-- [🚀 Demo](https://relivator.com)
-- [🧑‍💻 GitHub](https://github.com/blefnk/relivator)
-- [💬 Discord](https://discord.gg/Pb8uKbwpsJ)
-- [💖 Patreon](https://patreon.com/blefnk)
+[🚀 Live Demo](https://relivator.com) • [💬 Discord](https://discord.gg/Pb8uKbwpsJ) • [💖 Patreon](https://patreon.com/blefnk) • [🧑‍💻 GitHub](https://github.com/blefnk/relivator-nextjs-template)
 
-## Get Started
+## Quick Start
 
-_Make sure you have [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en), and [Bun](https://bun.sh) installed. Then:_
-
-1. Run `bun i -g @reliverse/cli`
-2. Execute `reliverse cli`
-3. Select _✨ Create a brand new project_
-4. Provide or skip details about your project
-5. It's ready—enjoy! 😊
-
-## Help Relivator Grow
-
-**If you find this project useful, please consider:**
-
-- Starring the [GitHub repository](https://github.com/blefnk/relivator)
-- Supporting via [Patreon](https://patreon.com/blefnk), [GitHub Sponsors](https://github.com/sponsors/blefnk), or [PayPal](https://paypal.me/blefony)
+1. Ensure [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en), and [Bun](https://bun.sh) are installed
+2. `bun i -g @reliverse/cli`
+3. `reliverse cli`
+4. Choose _✨ Create a brand new project_
+5. Provide/skip details about your project
+6. It's ready—enjoy! 😊
 
 ## Tech Stack
 
-- **Core**: [Next.js 15.2](https://nextjs.org), [React 19](https://react.dev), [TypeScript 5.8](https://typescriptlang.org)
-- **Styling**: [Tailwind 4](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
-- **Auth**: [Better Auth](https://better-auth.com)
-- **Payments**: [🏗️ Polar](https://polar.sh/)
-- **Database**: [Drizzle](https://orm.drizzle.team) & [Neon](https://neon.tech)
-- **File Storage**: [🏗️ Uploadthing](https://uploadthing.com)
-- **Tools**: [ESLint](https://eslint.org), [Biome](https://biomejs.dev/), [🏗️ Knip](https://knip.dev)
+- **Core:** [Next.js 15.2](https://nextjs.org), [React 19](https://react.dev), [TypeScript 5.8](https://typescriptlang.org)
+- **Auth:** [Better Auth](https://better-auth.com)
+- **Database:** [Drizzle ORM](https://orm.drizzle.team)
+- **Forms:** [🏗️ TanStack Form](https://tanstack.com/form)
+- **Payments:** [🏗️ Polar](https://polar.sh)
+- **Quality:** [ESLint](https://eslint.org), [Biome](https://biomejs.dev), [Knip](https://knip.dev)
+- **Storage:** [🏗️ Uploadthing](https://uploadthing.com)
+- **Styling:** [Tailwind 4](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com)
 
-> **Note**
-> Relivator (previously version 1.3.0) has been renamed to Versator. If you're interested in using [Clerk](https://clerk.com) and [Stripe](https://stripe.com) instead of Better Auth and Polar, check out the Versator [demo](https://versator.relivator.com/en), [repo](https://github.com/blefnk/versator), or [docs](/versator).
+## Help Project Grow
 
-### Commands
+- _If you found Relivator helpful, please consider:_ Star on [GitHub](https://github.com/blefnk/relivator-nextjs-template);
+- Support via [Patreon](https://patreon.com/blefnk), [GitHub Sponsors](https://github.com/sponsors/blefnk), or [PayPal](https://paypal.me/blefony). _Thank you!_
 
-- `bun build`: Builds the project
-- `bun dev`: Runs the development server
-- `bun db:push`: Saves database schema changes
-- `bun db:auth`: Regenerates `src/db/schema/users.ts` based on `src/lib/auth.ts`
-- `bun db:studio`: Opens the Drizzle ORM database visual editor
-- `bun ui`: Installs shadcn/ui components (e.g., `bun ui button`)
-- `bun latest`: Updates all dependencies to their latest versions
-- `bun check`: Runs type checking, linting, and formatting
+## Notes
+
+- Relivator 1.4.0+ is LLM-ready. Its codebase works seamlessly with AI IDEs like Cursor. It helps even beginners to get started quickly.
+- Relivator 1.3.0 was rebranded to Versator, which uses [Clerk](https://clerk.com) for auth and [Stripe](https://stripe.com) for payments. Check out the [demo](https://versator.relivator.com), [repo](https://github.com/blefnk/versator-nextjs-template), or [docs](/versator).
+
+## Commands
+
+| Command         | Description                |
+|-----------------|----------------------------|
+| `bun dev`       | Start dev server           |
+| `bun build`     | Build the project          |
+| `bun latest`    | Update dependencies        |
+| `bun ui`        | Install shadcn components  |
+| `bun db:push`   | Apply db schema changes    |
+| `bun db:auth`   | Update users schema file   |
+| `bun db:studio` | Open db visual editor      |
 
 ## License
 
-MIT. This project was created by [blefnk Nazar Kornienko](https://github.com/blefnk).
+MIT © [blefnk Nazar Kornienko](https://github.com/blefnk)
