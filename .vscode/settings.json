@@ -1,0 +1,16 @@
+{
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit"
+  },
+  "mdx.server.enable": true,
+  "markdownlint.config": {
+    "MD041": false,
+    "MD013": false,
+    "MD033": false,
+    "MD045": false,
+    "MD055": false
+  }
+}
